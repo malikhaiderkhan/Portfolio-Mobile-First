@@ -134,7 +134,7 @@ I would like to thank Microverse, my Learning partner and Standup Team for suppo
 
 - **How you clone the repo?**
 
-  - git clone git@github.com:malikhaiderkhan/Hello-world.git
+  - git clone git@github.com:malikhaiderkhan/Portfolio-Mobile-First.git
 
 - **How you install node?**
 
