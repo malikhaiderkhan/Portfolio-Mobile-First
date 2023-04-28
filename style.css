@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  align-items: center;
+}
+
+.hd {
+  height: 1px;
+}
+
+nav a:hover {
+  cursor: pointer;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 0 5%;
+  margin: 0 0 15% 0;
+  gap: 12px;
+  background-image: url("./assets/images/mobile-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 66px;
+  background-position-x: right;
+  height: 100vh;
+  width: auto;
+  position: fixed;
+}
+
+.headline h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.intro {
+  color: #344563;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.connect {
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.headline ul {
+  display: flex;
+}
+
+.headline li {
+  padding-right: 6%;
+  align-items: baseline;
+}
+
+.headline li a {
+  color: #505f79;
+}
+
+.headline li a:hover {
+  cursor: pointer;
+}
