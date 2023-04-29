@@ -74,6 +74,10 @@ nav a:hover {
   color: #505f79;
 }
 
+.icons li a {
+  color: #505f79;
+}
+
 .headline li a:hover {
   cursor: pointer;
 }
@@ -206,17 +210,13 @@ nav a:hover {
   color: #172b4d;
 }
 
-.icons{
+.icons {
   display: flex;
 }
 
 .icons li {
   padding-right: 6%;
   align-items: baseline;
-}
-
-.icons li a {
-  color: #505f79;
 }
 
 .icons li a:hover {
