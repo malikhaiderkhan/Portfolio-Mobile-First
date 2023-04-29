@@ -5,11 +5,16 @@
   list-style: none;
 }
 
+body {
+  background-color: #e5e5e5;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
   padding: 5%;
   align-items: center;
+  background-color: #fff;
 }
 
 .hd {
@@ -36,6 +41,8 @@ nav a:hover {
   background-position-x: right;
   height: 100vh;
   width: auto;
+  background-color: #fff;
+  border-bottom-left-radius: 60px;
 }
 
 .headline h1 {
