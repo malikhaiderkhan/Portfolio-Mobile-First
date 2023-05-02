@@ -278,3 +278,35 @@ nav a:hover {
 hr {
   color: #dfe1e6;
 }
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("./assets/images/contactform-shapes.png") 0 0 no-repeat,
+  url("./assets/images/Contact_me.png") 0 0 no-repeat
+  ;
+ border-top-left-radius: 60px;
+ padding: 103px 40px 103px 40px;
+
+
+}
+.contact h2 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: Center;
+  color: #fff;
+  }
+  
+  .contact p {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: Center;
+  vertical-align: Top;
+  color: #ebebff;
+  }
