@@ -211,11 +211,14 @@
         <h2>Contact me</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
             I’d love to help with it!</p>
-     <form>
+            <form
+            action="https://formspree.io/f/xlekzbgn"
+            method="POST"
+          >
         <input type="text" name="name" id="name" placeholder="username" maxlength="30" required>
         <input type="email" name="email" id="email" placeholder="loremipsum@gmail.com"  required>
         <textarea rows="7" cols="30" placeholder="write your messsage here"  required maxlength="500"></textarea>
-        <input type="button" id="submit" value="Get in Touch" >
+        <button type="submit" id="submit">Get in touch</button>
      </form>
     </section>
 </body>

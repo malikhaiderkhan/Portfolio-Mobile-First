@@ -278,17 +278,34 @@ nav a:hover {
 hr {
   color: #dfe1e6;
 }
+
+form {
+  margin-top: 40px;
+}
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: url("./assets/images/contactform-shapes.png") 0 0 no-repeat,
-  url("./assets/images/Contact_me.png") 0 0 no-repeat
-  ;
- border-top-left-radius: 60px;
- padding: 103px 40px 103px 40px;
-
+  url("./assets/images/Contact_me.png") 0 0 no-repeat;
+  border-top-left-radius: 60px;
+  padding: 103px 40px 103px 40px;
+  
+  /*padding: 0 5%;
+  margin: 0 0 15% 0;
+  gap: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 66px;
+  background-position-x: right;
+  height: 100vh;
+  width: auto;
+  background-color: #fff;
+  border-bottom-left-radius: 60px;
+  */
+  
 
 }
 .contact h2 {
@@ -325,19 +342,26 @@ hr {
     line-height: 20px;
     color: #172B4D;
     }
-     #submit{
-      padding: 12px 16px;
-        width: 142px;
-        height: 48px;
-        background: #FFFFFF;
-        border-radius: 8px;
-        font-family: "Poppins", Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 17px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #6070FF;
+
+    #submit {
+    padding: 12px 16px;
+    width: 142px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6070FF;
+    border: 1px;
+     }
+
+     input:valid{
+      border: 1px solid #fff;
+      
      }
     
