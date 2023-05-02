@@ -210,6 +210,16 @@ nav a:hover {
   gap: 12px;
 }
 
+.about1 p
+{
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+}
+
 .about h2 {
   font-weight: 700;
   font-size: 40px;
@@ -290,23 +300,16 @@ form {
   background: url("./assets/images/contactform-shapes.png") 0 0 no-repeat,
   url("./assets/images/Contact_me.png") 0 0 no-repeat;
   border-top-left-radius: 60px;
-  padding: 103px 40px 103px 40px;
   
-  /*padding: 0 5%;
-  margin: 0 0 15% 0;
+  padding: 74px 5%;
+  
   gap: 12px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-y: 66px;
   background-position-x: right;
-  height: 100vh;
-  width: auto;
-  background-color: #fff;
-  border-bottom-left-radius: 60px;
-  */
   
-
+  width: auto;
 }
 .contact h2 {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -360,8 +363,14 @@ form {
     border: 1px;
      }
 
-     input:valid{
-      border: 1px solid #fff;
+     input:focus ,textarea:focus{
+    outline: none;
       
+     }
+     
+     
+     .contact-section
+     {
+background-color: white;
      }
     
