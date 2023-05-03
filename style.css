@@ -210,6 +210,15 @@ nav a:hover {
   gap: 12px;
 }
 
+.about1 p {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
 .about h2 {
   font-weight: 700;
   font-size: 40px;
@@ -277,4 +286,124 @@ nav a:hover {
 
 hr {
   color: #dfe1e6;
+}
+
+form {
+  margin-top: 40px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("./assets/images/contactform-shapes.png");
+  border-top-left-radius: 60px;
+  padding: 74px 5%;
+  gap: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 222px 759px;
+  background-position-x: right;
+  background-position-y: 23px;
+  width: auto;
+  height: 100%;
+  background-color: #6070ff;
+}
+
+.contact h2 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  margin-top: 44px;
+  vertical-align: center;
+}
+
+.contact p {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: regular;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  vertical-align: top;
+  color: #ebebff;
+}
+
+.contact input,
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 10px 15px 10px;
+  margin: 12px 0 12px 0;
+  width: 300px;
+  text-align: left;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+#submit {
+  /* padding: 12px 16px; */
+  width: 142px;
+  height: 48px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border: 1px;
+}
+
+#submit:enabled {
+  background-color: #fff;
+  color: #6070ff;
+  border: 2px solid #7f8cff;
+}
+
+#submit:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+#submit:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+#submit:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border: 2px solid #5e6c84;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.plc::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.contact-section {
+  background-color: white;
 }
