@@ -45,12 +45,49 @@ nav a:hover {
   border-bottom-left-radius: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .headline {
+    background-image: url(./assets/images/Header-bg.png);
+  }
+}
+
 .headline h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   margin-top: 135px;
+  animation-name: slide-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+@keyframes slide-in {
+  0%   {
+    margin-left: 105%;
+    visibility:visible;
+  }
+  
+  100% {
+    margin-left: 0%;
+    visibility:visible;
+  }
+}
+  
+
+@media (min-width:768px) {
+  .headline h1 {
+    font-size: 48px;
+    line-height: 60px;
+    vertical-align: center;
+    text-align: left;
+    font-style: bold;
+    letter-spacing: 0.37px;
+    color: #091E42;
+    margin: 360px 260px 435px 260px;
+   
+  }
+ 
 }
 
 .intro {
@@ -58,6 +95,34 @@ nav a:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  
+  visibility: hidden;
+}
+@keyframes slide {
+  0%   {
+    margin-left: 105%;
+    visibility:visible;
+  }
+  
+  100% {
+    margin-left: 0%;
+    visibility:visible;
+  }
+}
+
+@media (min-width:768px) {
+  .intro {
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    font-style: normal;
+    vertical-align: top;
+    text-align: left;
+    margin: 12px 260px 325px 260px;
+  }
 }
 
 .connect {
@@ -105,6 +170,7 @@ nav a:hover {
   gap: 12px;
   margin: 44px 0;
 }
+
 
 .card h2 {
   font-weight: 700;
@@ -182,6 +248,11 @@ nav a:hover {
   padding: 12px;
   text-align: center;
   cursor: pointer;
+  transition: padding 1s;
+}
+
+.btn:hover{
+  padding:10px;
 }
 
 .btn:active {
