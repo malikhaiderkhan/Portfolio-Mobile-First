@@ -57,7 +57,23 @@ nav a:hover {
   line-height: 52px;
   color: #172b4d;
   margin-top: 135px;
+  animation-name: slide-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
 }
+@keyframes slide-in {
+  0%   {
+    margin-top: 105%;
+    visibility:visible;
+  }
+  
+  100% {
+    margin-top: 0%;
+    visibility:visible;
+  }
+}
+  
 
 @media (min-width:768px) {
   .headline h1 {
@@ -69,7 +85,9 @@ nav a:hover {
     letter-spacing: 0.37px;
     color: #091E42;
     margin: 360px 260px 435px 260px;
+   
   }
+ 
 }
 
 .intro {
