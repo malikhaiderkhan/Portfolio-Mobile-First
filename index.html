@@ -10,19 +10,30 @@
 <body>
     <section class="hd">
     <header class="toolbar">
+        <div class="logo">
         <a href="#">
         <img src="./assets/images/My Logo.png" alt="Logo">
         </a>
+        </div>
         <nav>
+        
+        <div class="dropdown">
         <a href="#">
         <img src="./assets/images/dropdown.png" alt="Dropdown menu">
         </a>
+        </div>
+
+        <div class="menu">
+            <p>Portfolio</p>
+            <p>About</p>
+            <p>Contact</p>
+          </div>
         </nav>
     </header>
     </section>
 
     <section class="headline">
-            <h1 class="name">I'm Haider. <br/>Glad to see you!</h1>
+            <h1 class="name">I'm Haider. <br/>Glad to see <br/>you!</h1>
 
             <p class="intro">
                 I’m a software developer! I can help you build a product , feature
@@ -31,7 +42,7 @@
                 contact me.
             </p>
 
-            <h3 class="connect">LET'S CONNECT</h3>
+            <h3 class="connect1">LET'S CONNECT</h3>
 
             <ul>
                 <li>
@@ -58,7 +69,8 @@
 
     <section class="portfolio">
         <div class="card">
-            <img src="./assets/images/card1.png" alt="card1">
+            <img class="left-card" src="./assets/images/card1.png" alt="card1">
+            <div class="right-card">
             <h2>Tonic</h2>
             <div class="xp">
                 <p>Canopy</p>
@@ -67,7 +79,7 @@
                     <li>2015</li>
                 </ul>
             </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="skills">
                 <li class="sbox">HTML</li>
                 <li class="sbox">CSS</li>
@@ -76,9 +88,11 @@
 
             <input class="btn" type="button" value="See project">
         </div>
+        </div>
 
         <div class="card">
-            <img src="./assets/images/card2.png" alt="card2">
+            <img class="left-card reverse-left" src="./assets/images/card2.png" alt="card2">
+            <div class="right-card reverse-right">
             <h2>Multi-Post Stories</h2>
             <div class="xp">
                 <p>Canopy</p>
@@ -87,7 +101,7 @@
                     <li>2015</li>
                 </ul>
             </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="skills">
                 <li class="sbox">HTML</li>
                 <li class="sbox">CSS</li>
@@ -96,9 +110,11 @@
 
             <input class="btn" type="button" value="See project">
         </div>
+        </div>
 
         <div class="card">
-            <img src="./assets/images/card3.png" alt="card3">
+            <img class="left-card" src="./assets/images/card3.png" alt="card3">
+            <div class="right-card">
             <h2>Tonic</h2>
             <div class="xp">
                 <p>Canopy</p>
@@ -107,7 +123,7 @@
                     <li>2015</li>
                 </ul>
             </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="skills">
                 <li class="sbox">HTML</li>
                 <li class="sbox">CSS</li>
@@ -116,9 +132,11 @@
 
             <input class="btn" type="button" value="See project">
         </div>
+        </div>
 
         <div class="card">
-            <img src="./assets/images/card4.png" alt="card4">
+            <img class="left-card reverse-left" src="./assets/images/card4.png" alt="card4">
+            <div class="right-card reverse-right">
             <h2>Multi-Post Stories</h2>
             <div class="xp">
                 <p>Canopy</p>
@@ -127,7 +145,7 @@
                     <li>2015</li>
                 </ul>
             </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="skills">
                 <li class="sbox">HTML</li>
                 <li class="sbox">CSS</li>
@@ -135,6 +153,7 @@
             </ul>
 
             <input class="btn" type="button" value="See project">
+        </div>
         </div>
     </section>
 
@@ -145,7 +164,7 @@
             Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
         </p>
         
-        <h3 class="connect">LET'S CONNECT</h3>
+        <h3 class="connect2">LET'S CONNECT</h3>
         
         <ul class="icons">
             <li>
@@ -218,7 +237,7 @@
               >
             <input type="text" name="name" id="name" class="plc" placeholder="Lorem Ipsum" maxlength="30" required>
             <input type="email" name="email" id="email" class="plc" pattern="[^ @]*@[^ @]*" placeholder="loremipsum@gmail.com"  required>
-            <textarea rows="7" cols="30" placeholder="Write your messsage here..."  required maxlength="500"></textarea>
+            <textarea rows="7" cols="30" class="msg" placeholder="Write your messsage here..."  required maxlength="500"></textarea>
             <button type="submit" id="submit">Get in touch</button>
          </form>
         </section>
