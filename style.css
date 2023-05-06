@@ -62,20 +62,20 @@ nav a:hover {
   animation-fill-mode: forwards;
   visibility: hidden;
 }
+
 @keyframes slide-in {
-  0%   {
+  0% {
     margin-left: 105%;
-    visibility:visible;
+    visibility: visible;
   }
   
   100% {
     margin-left: 0%;
-    visibility:visible;
+    visibility: visible;
   }
 }
-  
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .headline h1 {
     font-size: 48px;
     line-height: 60px;
@@ -83,11 +83,9 @@ nav a:hover {
     text-align: left;
     font-style: bold;
     letter-spacing: 0.37px;
-    color: #091E42;
+    color: #091e42;
     margin: 360px 260px 435px 260px;
-   
   }
- 
 }
 
 .intro {
@@ -98,22 +96,22 @@ nav a:hover {
   animation-name: slide;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  
   visibility: hidden;
 }
+
 @keyframes slide {
-  0%   {
+  0% {
     margin-left: 105%;
-    visibility:visible;
+    visibility: visible;
   }
   
   100% {
     margin-left: 0%;
-    visibility:visible;
+    visibility: visible;
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .intro {
     font-size: 20px;
     line-height: 28px;
@@ -170,7 +168,6 @@ nav a:hover {
   gap: 12px;
   margin: 44px 0;
 }
-
 
 .card h2 {
   font-weight: 700;
@@ -251,18 +248,15 @@ nav a:hover {
   transition: padding 1s;
 }
 
-.btn:hover{
-  padding:10px;
-}
-
-.btn:active {
+.btn: active {
   background-color: #2230d2;
   color: #fff;
 }
 
-.btn:hover {
+.btn: hover {
   background-color: #6070ff;
   color: #fff;
+  padding: 10px;
 }
 
 .about {
