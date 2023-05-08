@@ -11,6 +11,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -27,7 +28,7 @@
 
 # 📖 [Personal-Portfolio!] <a name="about-project"></a>
 
-**[Personal-Portfolio!]** is a 3rd day project in portal module of Microverse.
+**[Personal-Portfolio!]** is a project in portal module of Microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,6 +44,16 @@
 - **[HTML]**
 - **[CSS]**
 - **[Linters]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Below is a link to my deployed project.
+
+- [Live Demo Link](https://malikhaiderkhan.github.io/Portfolio-Mobile-First/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,8 +120,8 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Form section]**
-- **[Desktop version]**
+- **[JavaScript functions]**
+- **[Build projects for Portfolio]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
