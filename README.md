@@ -11,6 +11,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -43,6 +44,16 @@
 - **[HTML]**
 - **[CSS]**
 - **[Linters]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Below is a link to my deployed project.
+
+- [Live Demo Link](https://malikhaiderkhan.github.io/Portfolio-Mobile-First/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
