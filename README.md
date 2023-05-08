@@ -28,7 +28,7 @@
 
 # 📖 [Personal-Portfolio!] <a name="about-project"></a>
 
-**[Personal-Portfolio!]** is a 3rd day project in portal module of Microverse.
+**[Personal-Portfolio!]** is a project in portal module of Microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -120,8 +120,8 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Form section]**
-- **[Desktop version]**
+- **[JavaScript functions]**
+- **[Build projects for Portfolio]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
