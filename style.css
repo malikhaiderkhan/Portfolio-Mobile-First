@@ -85,15 +85,6 @@ hr {
   cursor: pointer;
 }
 
-.hamburger {
-  align-items: center;
-  float: right;
-}
-
-.hamburger a:hover {
-  cursor: pointer;
-}
-
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -188,6 +179,15 @@ nav a:hover {
 
 .icons li a {
   color: #505f79;
+}
+
+.hamburger {
+  align-items: center;
+  float: right;
+}
+
+.hamburger a:hover {
+  cursor: pointer;
 }
 
 .headline li a:hover {
@@ -394,10 +394,6 @@ nav a:hover {
 
 .lang p {
   padding-left: 5%;
-}
-
-hr {
-  color: #dfe1e6;
 }
 
 form {
