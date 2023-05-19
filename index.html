@@ -1,260 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mobile-First</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="blur-background" class="blur-background"></div>
-      <div id="menu-layer" class="menu-layer">
-        <ul class="menu-items">
-          <li><a id="Portfolio" href="#portfolio">Portfolio</a></li>
-          <li><a id="About" href="#about">About</a></li>
-          <li><a id="Contact" href="#contact-section">Contact</a></li>
-        </ul>
-        <div class="menu-X">
-          <button id="close-button" class="close-button">X</button>
-        </div>
-        <hr />
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="x-section">
+        <img src="./assets/images/x-icon.png" alt="" />
       </div>
-
-    <section class="hd">
-    <header class="toolbar">
-        <div class="logo">
-        <a href="#">
-        <img src="./assets/images/My Logo.png" alt="Logo">
-        </a>
-        </div>
-        <nav class>
-        
-        <div class="dropdown">
-        <a href="#" id="hamburger">
-        <img src="./assets/images/dropdown.png" alt="Dropdown menu">
-        </a>
-        </div>
-
-        <div class="menu" id="menu">
-            <p>Portfolio</p>
-            <p>About</p>
-            <p>Contact</p>
-          </div>
-        </nav>
+      <div class="navbar-menu">
+        <a href="#section2" class="items-menu">Portfolio</a>
+        <a href="#section3" class="items-menu">About</a>
+        <a href="#section4" class="items-menu">Contact</a>
+      </div>
+    </nav>
+    <header id="header">
+      <a href="#" id="name">Haider.</a>
+      <ul class="navbar-desktop">
+        <li>Portfolio</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+      <nav href="#">
+        <img id="hamburg" src="./assets/images/dropdown.png" alt="" />
+      </nav>
     </header>
-    </section>
-
-    <section class="headline">
-            <h1 class="name">I'm Haider. <br/>Glad to see <br/>you!</h1>
-
-            <p class="intro">
-                I’m a software developer! I can help you build a product , feature
-                or website Look through some of my work and experience! If you like
-                what you see and have a project you need coded, don’t hesitate to
-                contact me.
-            </p>
-
-            <h3 class="connect1">LET'S CONNECT</h3>
-
-            <ul>
-                <li>
-                    <a href="https://twitter.com/malikhaiderkha"><img src="./assets/images/twitter.png"></a>
-                </li>
-
-                <li>
-                    <a href="https://www.linkedin.com/in/malik-haider-khan-b53188140"><img src="./assets/images/linkedin.png"></a>
-                </li>
-
-                <li>
-                    <a href="#"><img src="./assets/images/M.png"></a>
-                </li>
-
-                <li>
-                    <a href="https://github.com/malikhaiderkhan"><img src="./assets/images/github.png"></a>
-                </li>
-
-                <li>
-                    <a href="#"><img src="./assets/images/victory.png"></a>
-                </li>
-            </ul>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <div class="card">
-            <img class="left-card" src="./assets/images/card1.png" alt="card1">
-            <div class="right-card">
-            <h2>Tonic</h2>
-            <div class="xp">
-                <p>Canopy</p>
-                <ul>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-            </div>
-            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="skills">
-                <li class="sbox">HTML</li>
-                <li class="sbox">CSS</li>
-                <li class="sbox">JavaScript</li>
-            </ul>
-
-            <input class="btn" type="button" value="See project">
-        </div>
-        </div>
-
-        <div class="card">
-            <img class="left-card reverse-left" src="./assets/images/card2.png" alt="card2">
-            <div class="right-card reverse-right">
-            <h2>Multi-Post Stories</h2>
-            <div class="xp">
-                <p>Canopy</p>
-                <ul>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-            </div>
-            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="skills">
-                <li class="sbox">HTML</li>
-                <li class="sbox">CSS</li>
-                <li class="sbox">JavaScript</li>
-            </ul>
-
-            <input class="btn" type="button" value="See project">
-        </div>
-        </div>
-
-        <div class="card">
-            <img class="left-card" src="./assets/images/card3.png" alt="card3">
-            <div class="right-card">
-            <h2>Tonic</h2>
-            <div class="xp">
-                <p>Canopy</p>
-                <ul>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-            </div>
-            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="skills">
-                <li class="sbox">HTML</li>
-                <li class="sbox">CSS</li>
-                <li class="sbox">JavaScript</li>
-            </ul>
-
-            <input class="btn" type="button" value="See project">
-        </div>
-        </div>
-
-        <div class="card">
-            <img class="left-card reverse-left" src="./assets/images/card4.png" alt="card4">
-            <div class="right-card reverse-right">
-            <h2>Multi-Post Stories</h2>
-            <div class="xp">
-                <p>Canopy</p>
-                <ul>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-            </div>
-            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="skills">
-                <li class="sbox">HTML</li>
-                <li class="sbox">CSS</li>
-                <li class="sbox">JavaScript</li>
-            </ul>
-
-            <input class="btn" type="button" value="See project">
-        </div>
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="about1">
-        <h2>About Myself</h2>
-        <p>
-            Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+    <main id="main">
+      <section id="section1">
+        <h1>
+          I'm Haider.
+          <br />
+          Glad to see you!
+        </h1>
+        <p id="p1">
+          I’m a software developer! I can help you build a product, feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hesitate to contact
+          me.
         </p>
-        
-        <h3 class="connect2">LET'S CONNECT</h3>
-        
-        <ul class="icons">
-            <li>
-                <a href="https://twitter.com/malikhaiderkha"><img src="./assets/images/twitter.png"></a>
+        <h4>LET'S CONNECT</h4>
+        <div id="icons-desktop1">
+          <ul id="list-icons">
+            <li class="img">
+              <a href="#">
+                <img src="./assets/images/github.png" alt="" />
+              </a>
             </li>
-
-            <li>
-                <a href="https://www.linkedin.com/in/malik-haider-khan-b53188140"><img src="./assets/images/linkedin.png"></a>
+            <li class="img">
+              <a href="#">
+                <img src="./assets/images/linkedin.png" alt="" />
+              </a>
             </li>
-
-            <li>
-                <a href="#"><img src="./assets/images/M.png"></a>
+            <li class="img">
+              <a href="#">
+                <img src="./assets/images/victory.png" alt="" />
+              </a>
             </li>
-
-            <li>
-                <a href="https://github.com/malikhaiderkhan"><img src="./assets/images/github.png"></a>
+            <li class="img">
+              <a href="#">
+                <img src="./assets/images/twitter.png" alt="" />
+              </a>
             </li>
-
-            <li>
-                <a href="#"><img src="./assets/images/victory.png"></a>
+            <li class="img">
+              <a href="#">
+                <img src="./assets/images/M.png" alt="" />
+              </a>
             </li>
-        </ul>
-
-        <input class="btn" id="resume" type="button" value="Get my resume">
-        </div>
-
-        <ul class="about2">
-            <li class="tskill">
-              <p>Languages</p>
-              <a href="#"><img src="./assets/images/down.png" alt="drop"></a>
-            </li>
-
-            <li>
-              <ul class="lang">
-                <li>
-                  <img src="./assets/images/js.png" alt="javascript" />
-                  <p>JavaScript</p>
-                </li>
-
-                <li>
-                  <img src="./assets/images/html.png" alt="html" />
-                  <p>HTML</p>
-                </li>
-                <li>
-                  <img src="./assets/images/css.png" alt="css" />
-                  <p>CSS</p>
-                </li>
-              </ul>
-            </li>
-            <li class="tskill">
-              <p>Frameworks</p>
-              <a href="#"><img src="./assets/images/right.png" alt="right"></a>
-            </li>
-            <hr />
-            <li class="tskill">
-              <p>Skills</p>
-              <a href="#"><img src="./assets/images/right.png" alt="right"></a>
-            </li>
-            <hr />
           </ul>
-    </section>
-    <section class="contact-section" id="contact-section">
-        <section class="contact">
-            <h2>Contact me</h2>
-            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-                I’d love to help with it!</p>
-                <form
-                action="https://formspree.io/f/xlekzbgn"
-                method="POST" class="fcontact"
-              >
-            <input type="text" name="name" id="name" class="plc" placeholder="Lorem Ipsum" maxlength="30" required>
-            <input type="email" name="email" id="email" class="plc" pattern="[^ @]*@[^ @]*" placeholder="loremipsum@gmail.com"  required>
-            <textarea rows="7" cols="30" class="msg" placeholder="Write your messsage here..."  required maxlength="500"></textarea>
-            <button type="submit" id="submit">Get in touch</button>
-         </form>
-        </section>
-    </section>
-   <script src = "script.js"></script>
-</body>
+        </div>
+        <div id="icons">
+          <ul id="list-icons">
+            <li class="img">
+              <a href="#">
+                <img src="./assets/images/twitter.png" alt="" />
+              </a>
+            </li>
+            <li class="img">
+              <a href="#">
+                <img src="./assets/images/linkedin.png" alt="" />
+              </a>
+            </li>
+            <li class="img">
+              <a href="#">
+                <img src="./assets/images/M.png" alt="" />
+              </a>
+            </li>
+            <li class="img">
+              <a href="#">
+                <img src="./assets/images/github.png" alt="" />
+              </a>
+            </li>
+            <li class="img">
+              <a href="#">
+                <img src="./assets/images/victory.png" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="section2">
+
+      </section>
+      <section id="section3">
+        <div class="myself">
+          <h2>About Myself</h2>
+          <p>
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website. Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hesitate to contact me.
+          </p>
+          <h3>LET'S CONNECT</h3>
+          <div id="icons">
+            <ul id="list-icons">
+              <li class="img">
+                <a href="#">
+                  <img src="./assets/images/twitter.png" alt="" />
+                </a>
+              </li>
+              <li class="img">
+                <a href="#">
+                  <img src="./assets/images/linkedin.png" alt="" />
+                </a>
+              </li>
+              <li class="img">
+                <a href="#">
+                  <img src="./assets/images/M.png" alt="" />
+                </a>
+              </li>
+              <li class="img">
+                <a href="#">
+                  <img src="./assets/images/github.png" alt="" />
+                </a>
+              </li>
+              <li class="img">
+                <a href="#">
+                  <img src="./assets/images/victory.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="icons-desktop">
+            <ul id="list-icons">
+              <li class="img">
+                <a href="#">
+                  <img src="./assets/images/github.png" alt="" />
+                </a>
+              </li>
+              <li class="img">
+                <a href="#">
+                  <img src="./assets/images/linkedin.png" alt="" />
+                </a>
+              </li>
+              <li class="img">
+                <a href="#">
+                  <img src="./assets/images/victory.png" alt="" />
+                </a>
+              </li>
+              <li class="img">
+                <a href="#">
+                  <img src="./assets/images/twitter.png" alt="" />
+                </a>
+              </li>
+              <li class="img">
+                <a href="#">
+                  <img src="./assets/images/M.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button class="section3-button">Get my resume</button>
+        </div>
+        <div class="menu-categories">
+          <ul class="categories">
+            <li class="li-categories">Languages</li>
+            <img class="li-img" src="./assets/images/down.png" alt="" />
+            <ul class="dropdown-menu">
+              <li>
+                <img src="./assets/images/js.png" />
+                JavaScript
+              </li>
+              <li>
+                <img src="./assets/images/html.png" />
+                HTML
+              </li>
+              <li>
+                <img src="./assets/images/css.png" />
+                CSS
+              </li>
+            </ul>
+          </ul>
+          <ul class="categories">
+            <li class="li-categories">Frameworks</li>
+            <img class="li-img" src="./assets/images/right.png" />
+          </ul>
+          <ul class="categories">
+            <li class="li-categories">Skills</li>
+            <img class="li-img" src="./assets/images/right.png" />
+          </ul>
+        </div>
+      </section>
+      <section id="section4" class="section4">
+        <h2>Contact me</h2>
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it!!
+        </p>
+        <form id="form" action="https://formspree.io/f/xlekzbgn" method="POST">
+          <ul>
+            <li>
+              <input
+                name="name"
+                class="name"
+                type="text"
+                placeholder="Lorem Ipsum"
+                maxlength="30"
+                required
+              />
+            </li>
+            <li>
+              <input
+                id="email"
+                name="email"
+                class="email"
+                type="email"
+                placeholder="loremipsum@gmail.com"
+                required
+              />
+            </li>
+            <li>
+              <textarea
+                name="message"
+                type="textarea"
+                class="textarea"
+                cols="30"
+                rows="10"
+                placeholder="Write your message here..."
+                maxlength="500"
+                required
+              ></textarea>
+            </li>
+            <li>
+              <button type="submit" class="button-form" id="button-form">Get in touch</button>
+            </li>
+          </ul>
+      </form>
+      </section>
+      <div id="Model" class="popup-code"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
+
