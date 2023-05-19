@@ -160,7 +160,7 @@ cardsData.forEach((card) => {
         <button class="${card.classButtons}" onclick="onClickProject(${card.onClickButton})">See Project</button>
       </div>
     </div>
-  ;`
+  ;`;
 });
 
 document.querySelector('#section2').innerHTML = cards;
