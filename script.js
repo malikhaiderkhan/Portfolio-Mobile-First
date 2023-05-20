@@ -302,3 +302,28 @@ function onClickProject(index) {
   const closeButton = document.querySelector(".popup-btn-close");
   closeButton.addEventListener("click", closePopup);
 }
+
+/* validation of form */
+
+const form = document.querySelector('#form');
+
+function validateEmail() {
+  const emailInput = document.querySelector('#email');
+  const email = emailInput.value.trim();
+
+  if (email !== email.toLowerCase()) {
+    const errorElement = document.createElement('span');
+    errorElement.classList.add('error-message');
+    errorElement.textContent = '*********Email must be in lower case.********';
+
+    const submitButton = document.querySelector('#button-form');
+    submitButton.insertAdjacentElement('afterend', errorElement);
+  } else {
+    form.submit();
+  }
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  validateEmail();
+});
